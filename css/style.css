@@ -8,3 +8,8 @@ header {
     color: #ffffff;
     width: 100%;
 }
+
+.page_title {
+    margin: 0;
+    margin-left: 10px;
+}
