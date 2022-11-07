@@ -11,5 +11,16 @@ header {
 
 .page_title {
     margin: 0;
-    margin-left: 10px;
+    margin-left: 150px;
+    color: #FFFFFF;
+}
+
+.header_logo {
+    margin-left: 30px;
+    width: 100px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
 }
