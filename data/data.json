@@ -1,3 +1,63 @@
 {
-
+    "brand": [
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 11
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 12
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 13
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 14
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 15
+        }
+    ],
+    "brand2": [
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 21
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 22
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 23
+        }
+    ],
+    "brand3": [
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 31
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 32
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 33
+        }
+    ]
 }
