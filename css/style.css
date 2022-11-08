@@ -76,8 +76,8 @@ hr {
     margin: 0 10%;
 }
 
-
 #gallery div {
+    height: 40vh;
     color: #ffffff;
     background-color: #181818;
     margin: 1%;
@@ -89,6 +89,26 @@ hr {
 #gallery div img {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 950px) {
+
+    #gallery div {
+        margin: 1%;
+        width: 22.5%;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #gallery {
+        margin: 0 5%;
+    }
+    #gallery div {
+        margin: 1%;
+        width: 30%;
+        height: 24vh;
+    }
 }
 
 #data_name {
