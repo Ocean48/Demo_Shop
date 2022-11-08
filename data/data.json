@@ -1,82 +1,82 @@
 {
-    "brand": [
+    "Brand": [
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example2.jpg",
             "price": 11
         },
         {
             "name": "Breeze Chew Mint",
             "image": "example.jpg",
-            "price": 15
+            "price": 12
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example2.jpg",
             "price": 13
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 14
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 15
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example2.jpg",
             "price": 16
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example2.jpg",
             "price": 17
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 18
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 19
         }
     ],
-    "brand2": [
+    "Brand2": [
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 21
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 22
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 23
         }
     ],
     "brand3": [
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 31
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 32
         },
         {
             "name": "XXX",
-            "image": "logo.png",
+            "image": "example.jpg",
             "price": 33
         }
     ]

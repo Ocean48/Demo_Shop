@@ -78,7 +78,7 @@ hr {
 
 #gallery div {
     color: #ffffff;
-    background-color: #181818;
+    background-color: #2f2f2f;
     margin: 1%;
     border: 1px solid #717171;
     float: left;
@@ -122,7 +122,6 @@ hr {
 @media screen and (max-width: 470px) {
     #gallery div {
         width: 47%;
-        /* height: 24vh; */
     }
 }
 
@@ -140,4 +139,8 @@ hr {
 
 #gallery br {
     clear: both;
+}
+
+h2 {
+    margin-bottom: 0;
 }

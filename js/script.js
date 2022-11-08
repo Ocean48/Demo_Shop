@@ -10,10 +10,9 @@ fetch("../data/data.json")
             var title = document.createElement("h2");
             var hr = document.createElement("hr");
             var br = document.createElement("br");
+            var br2 = document.createElement("br");
             title.innerHTML = (key);
             gallery.appendChild(title);
-            
-                
 
             for (var i = 0; i < data[key].length; i++) {
                 var block = document.createElement("div");  // Greate div for each item 
@@ -23,7 +22,6 @@ fetch("../data/data.json")
                 p.setAttribute("id", "data_name");
                 p2.innerHTML = (" P:" + data[key][i].price);
                 p2.setAttribute("id", "data_price");
-
 
                 var img = document.createElement("img");  // Create img tag
                 img.src = ("../images/" + data[key][i].image);
@@ -37,7 +35,11 @@ fetch("../data/data.json")
                 console.log(data[key][i].name + "  " + data[key][i].image + "  " + data[key][i].price);
             };
 
-            gallery.appendChild(br);
-            gallery.appendChild(hr);
+            if (Object.keys(data).pop() != key) {
+                gallery.appendChild(br);
+                gallery.appendChild(hr);
+            }
+            gallery.appendChild(br2);
+
         });
     });
