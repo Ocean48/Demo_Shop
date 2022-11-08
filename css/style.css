@@ -73,11 +73,10 @@ hr {
 }
 
 #gallery {
-    margin: 0 10%;
+    margin: 0 7%;
 }
 
 #gallery div {
-    height: 40vh;
     color: #ffffff;
     background-color: #181818;
     margin: 1%;
@@ -91,23 +90,39 @@ hr {
     height: auto;
 }
 
+@media screen and (max-width: 1250px) {
+    #gallery {
+        margin: 0 6%;
+    }
+}
+
 @media screen and (max-width: 950px) {
+    #gallery {
+        margin: 0 5%;
+    }
 
     #gallery div {
         margin: 1%;
         width: 22.5%;
-        height: 35vh;
     }
 }
 
-@media screen and (max-width: 450px) {
-    #gallery {
-        margin: 0 5%;
-    }
+@media screen and (max-width: 650px) {
     #gallery div {
-        margin: 1%;
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    #gallery div {
         width: 30%;
-        height: 24vh;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #gallery div {
+        width: 47%;
+        /* height: 24vh; */
     }
 }
 
