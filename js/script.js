@@ -18,7 +18,11 @@ fetch("../data/data.json")
             for (var i = 0; i < data[key].length; i++) {
                 var block = document.createElement("div");  // Greate div for each item 
                 var p = document.createElement('p');  // Create p for info in each item
-                p.innerHTML = (data[key][i].name + "  P:" + data[key][i].price);
+                var p2 = document.createElement('p');  // Create p for info in each item
+                p.innerHTML = (data[key][i].name);
+                p.setAttribute("id", "data_name");
+                p2.innerHTML = (" P:" + data[key][i].price);
+                p2.setAttribute("id", "data_price");
 
 
                 var img = document.createElement("img");  // Create img tag
@@ -28,6 +32,7 @@ fetch("../data/data.json")
                 gallery.appendChild(block);
                 block.appendChild(img);
                 block.appendChild(p);
+                block.appendChild(p2);
 
                 console.log(data[key][i].name + "  " + data[key][i].image + "  " + data[key][i].price);
             };
