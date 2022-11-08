@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #ededed;
+    background-color: #d3d3d3;
 }
 
 header {
@@ -27,26 +27,38 @@ a {
 }
 
 hr {
-    width: 95%;
+    margin-top: 50px;
+    width: 100%;
     border: 1px #000000 solid;
-    margin-top: 250px;
     clear: both;
 }
 
 .info_block {
+    font-size: 22px;
     margin: 0 10px;
     border: #000000 3px solid;
     height: 100px;
 }
 
 .map_block {
+    font-size: 22px;
     margin: 0 10px;
     border: #000000 3px solid;
 }
 
 .map_block iframe {
-    margin-left: 40%;
+    min-width: 400px;
+    min-height: 400px;
+    width: 40%;
+    height: 35vw;
+    margin: auto;
     display: block;
+}
+
+.map_block p {
+    float: left;
+    margin-left: 15%;
+    text-align: center;
 }
 
 .copyright {
@@ -66,10 +78,12 @@ hr {
 
 
 #gallery div {
-    margin: 5px;
+    color: #ffffff;
+    background-color: #181818;
+    margin: 1%;
     border: 1px solid #717171;
     float: left;
-    width: 180px;
+    width: 17%;
 }
 
 #gallery div img {
@@ -78,6 +92,10 @@ hr {
 }
 
 #gallery div p {
-    padding: 15px;
+    padding: 10%;
     text-align: center;
+}
+
+#gallery br {
+    clear: both;
 }

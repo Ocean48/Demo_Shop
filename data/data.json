@@ -24,6 +24,26 @@
             "name": "XXX",
             "image": "logo.png",
             "price": 15
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 16
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 17
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 18
+        },
+        {
+            "name": "XXX",
+            "image": "logo.png",
+            "price": 19
         }
     ],
     "brand2": [

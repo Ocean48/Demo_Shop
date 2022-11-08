@@ -9,6 +9,7 @@ fetch("../data/data.json")
             var gallery = document.getElementById("gallery");  // Get gallery div
             var title = document.createElement("h2");
             var hr = document.createElement("hr");
+            var br = document.createElement("br");
             title.innerHTML = (key);
             gallery.appendChild(title);
             
@@ -31,6 +32,7 @@ fetch("../data/data.json")
                 console.log(data[key][i].name + "  " + data[key][i].image + "  " + data[key][i].price);
             };
 
+            gallery.appendChild(br);
             gallery.appendChild(hr);
         });
     });
