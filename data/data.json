@@ -1,83 +1,68 @@
 {
-    "Brand": [
+    "BREEZE": [
         {
-            "name": "XXX",
-            "image": "example2.jpg",
-            "price": 11
+            "name": "Mint",
+            "image": "example2.jpg"
         },
         {
-            "name": "Breeze Chew Mint",
-            "image": "example.jpg",
-            "price": 12
+            "name": "Chew Mint",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example2.jpg",
-            "price": 13
+            "name": "Green Apple",
+            "image": "example2.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 14
+            "name": "Blue Raspberry",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 15
+            "name": "Blue Raspberry",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example2.jpg",
-            "price": 16
+            "name": "Blue Raspberry",
+            "image": "example2.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example2.jpg",
-            "price": 17
+            "name": "Blue Raspberry",
+            "image": "example2.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 18
+            "name": "Blue Raspberry",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 19
+            "name": "Blue Raspberry",
+            "image": "example.jpg"
         }
     ],
-    "Brand2": [
+    "VICE": [
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 21
+            "name": "Mint ice",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 22
+            "name": "Guava Ice",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 23
+            "name": "Peach Ice",
+            "image": "example.jpg"
         }
     ],
-    "brand3": [
+    "NAME": [
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 31
+            "name": "ABCDEF GHIJK",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 32
+            "name": "ABCDEF GHIJK",
+            "image": "example.jpg"
         },
         {
-            "name": "XXX",
-            "image": "example.jpg",
-            "price": 33
+            "name": "ABCDEF GHIJK",
+            "image": "example.jpg"
         }
     ]
 }
